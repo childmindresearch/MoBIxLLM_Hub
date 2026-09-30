@@ -4,7 +4,7 @@ Central hub for the **MoBI × LLM** project (MSM-MoBI): a study of physiological
 
 This repo does two jobs:
 
-1. **Map.** It indexes every MoBIxLLM repository under the [`childmind`](https://github.com/childmind) org.
+1. **Map.** It indexes every MoBIxLLM repository under the [`childmindresearch`](https://github.com/childmindresearch) org.
 2. **Source of truth.** It holds the shared resources (LLM stances, vignettes and probes, randomization schemes, safety checks), the cross-system analyses, and the project's development discussion (as Issues).
 
 > ⚠️ **No participant data in this repo or any MoBIxLLM repo.** This includes transcripts, Prolific IDs, physiological recordings, and anything else linked to a participant. Data lives in: `<approved storage location>`.
@@ -17,11 +17,11 @@ All repos follow the naming convention **`MoBIxLLM_<Name>`**.
 
 | Repo | What it is | Setting | Status | Owner |
 |---|---|---|---|---|
-| [MoBIxLLM_Hub](https://github.com/childmind/MoBIxLLM_Hub) | This repo: index, shared resources, analyses, discussion | — | Active | `@owner` |
-| [MoBIxLLM_LabStructured](https://github.com/childmind/MoBIxLLM_LabStructured) | Structured LLM-interaction UI for in-lab sessions *(formerly MoBI-MSM)* | In-lab | `Active / Piloting` | `@owner` |
-| [MoBIxLLM_LabUnstructured](https://github.com/childmind/MoBIxLLM_LabUnstructured) | Free-form LLM-interaction UI for in-lab sessions | In-lab | `Status` | `@owner` |
-| [MoBIxLLM_ProlificStructured](https://github.com/childmind/MoBIxLLM_ProlificStructured) | Web-based structured UI for online data collection | Prolific | `Status` | `@owner` |
-| [MoBIxLLM_ProtocolRunner](https://github.com/childmind/MoBIxLLM_ProtocolRunner) | Wizard that guides RAs through the in-lab session protocol | In-lab | `Status` | `@owner` |
+| [MoBIxLLM_Hub](https://github.com/childmindresearch/MoBIxLLM_Hub) | This repo: index, shared resources, analyses, discussion | — | Active | `@owner` |
+| [MoBIxLLM_LabStructured](https://github.com/childmindresearch/MoBIxLLM_LabStructured) | Structured LLM-interaction UI for in-lab sessions *(formerly MoBI-MSM)* | In-lab | `Active / Piloting` | `@owner` |
+| [MoBIxLLM_LabUnstructured](https://github.com/childmindresearch/MoBIxLLM_LabUnstructured) | Free-form LLM-interaction UI for in-lab sessions | In-lab | `Status` | `@owner` |
+| [MoBIxLLM_ProlificStructured](https://github.com/childmindresearch/MoBIxLLM_ProlificStructured) | Web-based structured UI for online data collection | Prolific | `Status` | `@owner` |
+| [MoBIxLLM_ProtocolRunner](https://github.com/childmindresearch/MoBIxLLM_ProtocolRunner) | Wizard that guides RAs through the in-lab session protocol | In-lab | `Status` | `@owner` |
 
 **Status key:** `Active` in use for data collection · `Piloting` in testing, not yet collecting study data · `Dev` under development · `Archived` retired, kept for reference
 
@@ -131,7 +131,7 @@ All design discussion lives in this repo's **Issues**, including feedback and di
 
 ## Getting started
 
-1. Request access to the `childmind` org and the MoBIxLLM repos from `@owner`.
+1. Request access to the `childmindresearch` org and the MoBIxLLM repos from `@owner`.
 2. Read `shared/*/README.md` for the current study design.
 3. Check the **Currently deployed versions** table before making changes to any app.
 4. Never commit API keys or `.env` files. Use `<secrets manager / instructions>`.
